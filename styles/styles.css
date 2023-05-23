@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;800&display=swap');
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: content-box;
+ }
+ .btn-started:focus{
+     outline: none;
+     box-shadow: 0 0 0 0.3rem rgba(230, 125, 34, 0.5);
+ }
+ html{
+    overflow-x: hidden;
+
+ }
+ body{
+     font-family: 'Noto Sans', sans-serif;
+     font-size: 62.5%;
+     line-height: 1.2;
+     overflow-x: hidden;
+ }
+ /* Mobile  */
+ .btn-mobile-nav{
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+   }
+   .icon-mobile-nav{
+       height: 2.6rem;
+       width: 2.6rem;
+       color: #333;
+   }
+.icon-mobile-nav[name="close-outline"]{
+   display: none;
+} 
+.icon-mobile-nav[name="menu-outline"]{
+    display: block;
+ } 
+/* sticky navigation */
+.sticky .header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    padding-top: 0;
+    background-color: rgba(255, 255, 255, 0.97);
+    z-index: 999;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  }
+  
+  .sticky .more-goals {
+    margin-top: 9.6rem;
+  }
+  
+
+ /* Header */
+ header{
+     padding: 0 0 20px 0;
+     background: #fff4e6;
+     width: 100%;
+     position: relative;
+ }
+ .logo{
+    width: 10%;
+    height: 1%;
+ }
+ .nav-list{
+     display: flex;
+     font-size: 1.1rem;
+     gap: 4%;
+     list-style: none;
+     margin-top: -5%;
+     margin-left: 25%;
+ }
+ .nav-list li button{
+     padding:15px 30px;
+     border: none;
+     font-size: inherit;
+     background:  #d9480f;
+     color: #ffffff;
+     font-weight: 800;
+     border-radius: 11px;
+     position: absolute;
+     bottom: 10%;
+     /* margin-top: -150% !important; */
+ }
+ .nav-list li:last-child{
+     margin-left: 35%;
+ }
+ .nav-link:link,
+ .nav-link:visited{
+     padding:0;
+     margin:0;
+     text-decoration: none;
+     color: #d9480f; 
+ }
+ .nav-link:hover,
+.nav-link:active{
+    padding:0;
+    margin:0;
+    font-size: 1.1rem;
+    text-decoration:none;
+    font-variant:small-caps;
+    color: #ffa500;
+}
+
+/* Sticky navigation */
+.sticky .header{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    /* padding-top: 6%; */
+    padding-bottom: 0;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.966);
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.06);
+
+}
+.sticky .main-section{
+    margin-top: 8.6rem;
+}
+/* Goal container */
+.goal-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+    url(/images/veges.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    z-index: -1;
+    color: #ffffff;
+}
+.goal-container h1{
+    font-size: 4.4rem;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 23%;
+}
