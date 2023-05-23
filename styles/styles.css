@@ -141,3 +141,230 @@
     top: 25%;
     left: 23%;
 }
+.more-goals{
+    /* background-color: #ffebeb; */
+    max-height: 100%;
+    padding: 3%  0 12.8rem 0;
+    padding-bottom: 12.8rem;
+}
+.secondary-heading{
+    padding-top: 2%;
+    font-size: 3.4rem;
+    text-align: center;
+    font-weight: 600;
+    color: #014700;
+}
+.goal{
+    width: 15%;
+    height: 150px;
+    background-color: #fff;
+    text-align: center;
+    padding: 2%;
+    box-shadow: rgba(50, 50, 93, 0.438) 0px 30px 60px -12px, rgba(0, 0, 0, 0.24) 0px 18px 36px -18px inset;
+}
+.primary-heading{
+    font-size: 1rem;
+    margin-top: 15%;
+    color: #212529;
+    font-weight: 500;
+}
+.goals-div{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 5%; */
+    margin: 3% 0 0 6%;
+}
+.about-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+    url(/images/mamamboga2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    width: 98vw;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    color: #ffffff;
+}
+.about{
+    width: 700px;
+    height: 38%;
+    position: absolute; 
+    top: 20%;
+    left: 25%;
+    background-color: #d34006; 
+    margin: 0 auto;
+    padding: 5% 3% 0 4%;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+
+/* Team */
+.team{
+    background-color: #fffefd;
+    line-height: 1.2;
+    color: #212529;
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+.member{
+    margin-bottom: 6% !important;
+}
+.our-t{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 10% !important;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+.email-link:link,
+.email-link:visited{
+    color: #333;
+    font-size: 0.8rem;
+    letter-spacing: 1.1px;
+}
+.email-link:hover,
+.email-link:active{
+    color: #d9480f;
+
+}
+.vision-mission{
+    background: #FFFF;
+     padding: 4%;
+     color: #1b1e20;
+ }
+ .mission,
+ .vision{
+     width: 50%;
+     height: 90%;
+     background-color: #094000;
+     margin-bottom: 3%;
+     padding: 5% 2% 4% 2%;
+     font-size: 1.2rem;
+     border-radius: 8px;
+ }
+ .vision-mission h2{
+     color: #f8f9fa;
+     margin-bottom: 2%;
+ }
+ .mission{
+     margin-left: 10%;
+ }
+ .vision{
+     margin-left: 25%;
+     margin-top: 8%;
+ }
+.member p{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.member img{
+    width: 50%;
+    height: 80%;
+}
+/* Footer */
+.footer{
+    padding: 4.4rem 0 1rem 0;
+    background-color: #081D04;
+    color: #fff4e6;
+    /* max-width: 100%; */
+}
+.grid--footer{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns:  1.5fr 1.5fr 1fr 1fr;
+}
+.logo-col{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-heading{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+.contacts{
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6rem
+}
+.address{
+    margin-bottom: 1rem;
+}
+.footer-logo{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-left: -5%;
+    margin-top: -2rem;
+}
+.social-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-top: -10% !important;
+}
+.social-icon{
+    height: 34px;
+    width: 34px;
+}
+.footer-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* line-height: 1.0; */
+    
+}
+.footer-link:link,
+.footer-link:visited{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    transition: all 0.3;
+}
+.footer-link:hover,
+.footer-link:active{
+    color: #b6cbe2;
+}
+.copyright{
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    color: #313131;
+    position: absolute;
+    left: 35%;
+}
+.vision-mission{
+   background: #fff4e6;
+    padding: 4%;
+    color: #f8f9fa;
+}
+.mission,
+.vision{
+    width: 50%;
+    height: 90%;
+    background-color: #081D04;
+    margin-bottom: 3%;
+    padding: 5% 2% 4% 2%;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+.vision-mission h2{
+    color: #f8f9fa;
+    margin-bottom: 2%;
+}
+.mission{
+    margin-left: 10%;
+}
+.vision{
+    margin-left: 25%;
+    margin-top: 8%;
+}
+.logo-footer{
+    width: 50%;
+    height: 70%;
+}
